@@ -1,0 +1,64 @@
+@media (min-width: 660px) {
+  .sanatorium-grid {
+    display: grid;
+    grid-template: 5rem / 45% 45%;
+    grid-gap: 1rem;
+
+    .location {
+      grid-column: 1;
+      grid-row: 1;
+    }
+
+    .food {
+      grid-column: 1;
+      grid-row: 2;
+    }
+
+    .roomType {
+      grid-row: 1/ 3;
+      grid-column: 2;
+    }
+  }
+}
+
+.sanatorium-flex_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.sanat__fix_width {
+  flex-basis: 78%;
+}
+
+.sanatorium {
+  .sanatorium__service__wrapper {
+    .sanatorium-photo-block {
+      flex-basis: 20%;
+
+      // .services-img__sanatorium {}
+    }
+
+    .sanatorium-info-block {
+      .sanatorium-info-block__wrapper {
+        // .sanatorium__name {}
+
+        //.sanatorium__info {}
+
+        .sanatorium__info {
+          align-items: flex-start !important;
+          height: 75% !important;
+
+          // .forSanatoriumBlock {}
+
+          .sanat-button_setting {
+            //     width: 100%;
+            //     height: 190px !important;
+            flex-basis: 10% !important;
+            //     justify-content: flex-start !important;
+            //     align-self: flex-start !important;
+          }
+        }
+      }
+    }
+  }
+}

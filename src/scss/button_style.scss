@@ -1,0 +1,155 @@
+button {
+  padding: 0;
+}
+
+// .buttonblock {
+// align-self: center;
+
+.buttonblock__wrapper {
+  display: flex;
+  flex-direction: column;
+  // height: 2.125rem;
+
+
+  .buttonstyle {
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    font-size: 0.8rem;
+  }
+}
+
+// }
+
+.orange-svg {
+  color: #ff9314;
+}
+
+.orange {
+  background-color: #ff9314;
+  color: white;
+
+  &:hover {
+    background-color: #d97500;
+  }
+  &:active {
+    background-color: #ff9314;
+  }
+}
+
+.blue {
+  background-color: #4267b2;
+  color: white;
+
+  &:hover {
+    background-color: #1f4188;
+  }
+
+  &:active {
+    background-color: #4267b2;
+  }
+}
+
+.blue,
+.orange {
+  &:active {
+    box-shadow: inset 0px 7px 10px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.find-a-specialist__button {
+  width: 100px;
+}
+
+// .get-consultation_button {}
+
+.sanat-button_setting {
+  width: 100%;
+  height: 190px !important;
+  flex-basis: 100% !important;
+  justify-content: flex-start !important;
+  align-self: flex-start !important;
+}
+
+
+//инпуты
+
+input[type="text" i] {
+  padding: 0px 5px;
+}
+
+.input-block-name {
+  font-weight: bold;
+}
+.input-block-self {
+  width: 100%;
+  height: 3.125rem;
+
+  border: 0.0938rem solid #deebfe;
+  border-radius: 0.625rem;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+/* // .buttons-wrapper {
+//     .slider-button {
+//         margin: 0px 10px;
+//         opacity: 0;
+//         transition: 0.3s;
+
+//         button {
+//             border: none;
+//             border-radius: 50%;
+//             width: 40px;
+//             height: 40px;
+//             text-align: center;
+//             display: flex;
+//             align-items: center;
+//             justify-content: center;
+//         }
+//     }
+//     &:hover .slider-button {
+//         opacity: 1;
+//     }
+// } */
+
+.slider-button {
+  button {
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.people__group {
+  height: 150px !important;
+}
+
+.input-block_group__item {
+  .buttonblock {
+    .buttonblock__wrapper {
+      width: 100%;
+      height: 3.125rem;
+    }
+  }
+}
+
+.menu__element_link:hover {
+  color: #ff9314;
+  text-decoration: underline;
+}
+
+.form-select {
+  width: 100%;
+  height: 3.125rem;
+    border: 0.0938rem solid #deebfe;
+    border-radius: 0.625rem;
+}

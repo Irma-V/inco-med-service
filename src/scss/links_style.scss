@@ -1,0 +1,60 @@
+.menu{
+    .menu__wrapper {
+        .menu__element {
+            .menu__element_link {
+                text-decoration: none;
+                color: #2A2A2A;
+                
+                
+            
+                //&:visited {}
+            }
+        }
+    }
+}
+
+.solutions__element_link {
+    color: white;
+}
+
+
+.add-note-line {
+    // margin: 20px;
+    // height: 80px;
+
+    .add-note-line__textblock {
+        
+
+        .agreement__link, .use-of-pers-data__link, .gift__link {
+            text-decoration: none;
+            color: #4267B2;
+
+            &:hover {
+                color: #FF9314;
+            }
+
+            //&:visited {}
+        }   
+    }
+}
+
+.show-more__label {
+    // text-decoration: underline;
+    color: #4367AF;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+        // color: #FF9314;
+    }
+}
+
+.show-more__label {
+    margin: 20px 15px;
+    font-size: 20px;                      
+    font-weight:  bold;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

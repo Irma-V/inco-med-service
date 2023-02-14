@@ -1,0 +1,278 @@
+@import "@/scss/fragments_style.scss";
+@import "@/scss/title_block.scss";
+@import "@/scss/header.scss";
+@import "@/scss/footer.scss";
+
+// body {
+//     min-width: 1360px;
+// }
+
+// * {
+//    font-size: 1rem;
+
+// }
+
+// *, ::after, ::before {
+//     box-sizing: inherit;
+// }
+
+.h1 {
+  font-weight: bold;
+  // font-size: 22px;
+  color: #2a2a2a;
+}
+
+.container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto;
+  max-width: 1440px;
+  //width: 1440px;
+
+  section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    &:first-child {
+      margin-top: 160px;
+    }
+  }
+}
+
+.main {
+  // flex: 1 1 auto;
+}
+
+.content {
+  padding: 3% 4%;
+  // padding: 40px 45px;
+  // max-width: 1360px;
+
+  // .application-form-block {
+  //     margin: 150px 0px 0px 0px;
+  // }
+
+  .our-solutions-block {
+    // .our-solutions__content-block {
+    //   display: flex;
+    //   flex-direction: row;
+    //   justify-content: space-between;
+    //   flex-wrap: wrap;
+    // }
+  }
+
+  .specialists-block,
+  .our-solutions-block {
+    // margin-top: 125px;
+    .specialists__content-block {
+      display: flex;
+      flex-direction: column-reverse;
+
+      .specialists__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        //.specialists-block__miniature {}
+      }
+
+      // .limiter {
+      //   height: 955px !important;
+      // }
+
+      // .limiter__content-block {
+      //   // transition: 0.3s ease-in-out;
+      //   // max-height: 0;
+      //   // overflow: hidden;
+      // }
+    }
+  }
+
+  .about-sanatorium__photo-gallery,
+  .about-clinic-photo-gallery {
+    display: flex;
+  }
+
+  .about-sanatorium-cart,
+  .about-clinic-cart {
+    .about-sanatorium-cart__wrapper,
+    .about-clinic-cart__wrapper {
+      align-items: flex-start !important;
+      justify-content: space-between !important;
+
+      .about-sanatorium-cart__textblock,
+      .about-clinic-cart__textblock {
+        flex-basis: 55%;
+        .about-sanatorium-cart__title,
+        .about-clinic-cart__title {
+          font-size: 36px !important;
+          width: 100% !important;
+        }
+        .about-sanatorium__grid-block {
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  .about-a-doctor-cart {
+    .about-a-doctor-cart__wrapper {
+      align-items: flex-start !important;
+      justify-content: space-between !important;
+
+      .about-a-doctor-cart__textblock {
+        flex-basis: 70% !important;
+        height: 400px !important;
+
+        .about-a-doctor-cart__title {
+          font-size: 36px !important;
+          width: 100% !important;
+        }
+
+        .about-a-doctor__grid-block {
+          margin: 0 !important;
+
+          .catalog-item__info__input-block {
+            display: flex !important;
+            justify-content: space-between !important;
+            width: 60% !important;
+
+            .input-block {
+              width: 100% !important;
+              flex-basis: 45% !important;
+            }
+          }
+        }
+
+        .about-a-doctor-cart__description {
+          width: 80% !important;
+          margin: 0 !important;
+        }
+      }
+    }
+  }
+
+  .about-a-doctor__image__wrapper {
+    flex-basis: 30%;
+    display: flex;
+    height: 100%;
+
+    .about-a-doctor__image {
+      // border-radius: 10px;
+      object-fit: cover;
+    }
+  }
+
+  //
+
+  .rooms-catalog-block {
+    .rooms-catalog-block__wrapper {
+      display: grid;
+      grid-gap: 25px;
+      grid-template: 295px / 49% 49%;
+
+      align-items: center;
+      justify-items: center;
+
+      .case__grid-block__a {
+        grid-column: 1;
+        grid-row: 1;
+      }
+
+      .case__grid-block__b {
+        grid-column: 2;
+        grid-row: 1;
+      }
+      .case__grid-block__c {
+        grid-column: 1;
+        grid-row: 2;
+      }
+      .case__grid-block__d {
+        grid-column: 2;
+        grid-row: 2;
+      }
+    }
+  }
+
+  .partners-block {
+    .partners__wrapper {
+      //height: 435px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+
+      .partner__logo {
+        margin-right: 2rem;
+      }
+    }
+  }
+}
+
+.filter-block {
+  // height: 1830px;
+  display: flex;
+
+  .filter-block__wrapper {
+    
+    .title__name {
+      flex-basis: 5%;
+    }
+
+    .filter {
+      // flex-basis: 8%;
+    }
+
+    .catalog__wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      // height: 1400px;
+      margin: 25px 0px 25px 0px;
+    }
+  }
+}
+
+#mapSurface {
+  width: 100%;
+  height: 100%;
+  background-image: url(~@/assets/img/map.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 511px;
+}
+
+.map-and-contacts {
+  margin: 25px 0px 0px 0px;
+}
+
+.map-and-contacts {
+  margin: 70px 0px 0px 0px;
+
+  .map-block {
+    display: flex;
+    align-items: center;
+
+    .contacts-block__wrapper {
+      
+      .contacts__case {
+        .nav__contacts {
+          .nav__content {
+            font-weight: bold;
+            font-size: 20px;
+
+            .nav__content__li {
+              font-weight: 400;
+              font-size: 18px;
+              margin-top: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

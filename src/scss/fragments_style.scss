@@ -1,0 +1,575 @@
+@import "@/scss/common_styles.scss";
+@import "@/scss/solutions_block.scss";
+@import "@/scss/sanatorium_block.scss";
+@import "@/scss/about-it-block.scss";
+@import "@/scss/news-block.scss";
+@import "@/scss/med-specialist_block.scss";
+
+@import "@/scss/program.scss";
+@import "@/scss/slider.scss";
+@import "@/scss/accordion.scss";
+
+@import "@/scss/media.scss";
+
+//логотипы  в catalog-item
+
+body {
+  font-family: Jost, sans-serif;
+  margin: 0;
+}
+
+.fragment_block {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+//.news__case {}
+
+.additional_textblock {
+  width: 100%;
+  height: auto;
+  font-weight: 400;
+  color: #8b8b8b;
+}
+
+.catalog-item {
+  // width: 100%;
+  // height: 16.625rem;
+  // background-color: white;
+
+  // display: flex;
+  // align-content: center;
+  // justify-content: center;
+
+  .catalog-item__wrapper {
+    .services-img-block {
+
+      .additional-button_block {
+        // display: none;
+      }
+    }
+
+    .services-info-block {
+      
+      .services-info-block__wrapper {
+        // width: 100%;
+        // height: 100%;
+        // display: flex;
+        // flex-direction: column;
+
+        .catalog-item__name {
+          // flex-basis: 10%;
+
+          // font-weight: bold;
+          // font-size: 24px;
+
+          // display: flex;
+          // flex-direction: column;
+        }
+
+        .catalog-item__info {
+          // flex-basis: 90%;
+
+          // display: flex;
+          // flex-direction: row;
+          // justify-content: space-between;
+          // align-items: center;
+
+          // height: 100%;
+
+          .catalog-item__info__input-block {
+            // flex-basis: 30%;
+            // height: 100%;
+
+            // display: flex;
+            // flex-direction: column;
+            // justify-content: space-around;
+          }
+
+          .catalog-item__info__join-block {
+            // flex-basis: 60%;
+
+            // display: flex;
+            // flex-direction: row;
+
+            // height: 100%;
+            // justify-content: space-between;
+
+            .timeSelector {
+              // flex-basis: 30%;
+              // height: 100%;
+
+              // display: flex;
+              // flex-direction: column;
+              // justify-content: space-around;
+            }
+
+            .choose-a-service_block {
+              // flex-basis: 35%;
+              // height: 100%;
+
+              // display: flex;
+              // flex-direction: column;
+              // justify-content: space-around;
+              // align-self: center;
+
+              .priceBlock {
+                // font-weight: bold;
+                // font-size: 30px;
+                // height: 43px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.block {
+  // background-color: white;
+  // border: 2px solid #DEEBFE;
+  // // border-radius: 10px;
+  // padding: 20px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 30%;
+    bottom: 100%;
+    border: 20px solid transparent;
+    border-bottom: 20px solid #deebfe;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 30%;
+    bottom: 95%;
+    border: 20px solid transparent;
+    border-bottom: 19px solid white;
+  }
+}
+
+//#F0F7FF
+.tech-support-block {
+  margin: 95px 0px;
+  background-repeat: no-repeat;
+
+  .tech-support-block__wrapper {
+    // height: 280px;
+    // // width: 1440px;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+
+    .tech-support__form {
+      // height: 125px;
+
+      // display: flex;
+      // flex-direction: column;
+      // align-items: center;
+      // justify-content: space-between;
+
+      .tech-support__textblock {
+        // font-size: 34px;
+        // font-weight: bold;
+      }
+      //.tech-support__buttonblock {}
+    }
+  }
+}
+
+// .select-sanatorium__form {
+//   width: 100%;
+//   margin: 0 auto;
+//   padding: 50px 0px 0px 0px;
+
+//   .tabs {
+//     //margin: 0px 0px 50px 0px;
+//     .tabs__items {
+//       display: flex;
+
+//       .tabs__item {
+//         flex: 0 1 15%;
+//         height: 50px;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         // text-transform: uppercase;
+//         text-decoration: none;
+//         // border-radius: 10px 10px 0px 0px;
+
+//         & span {
+//           position: relative;
+//           z-index: 2;
+//           font-weight: bold;
+//           color: #4267b2;
+//         }
+//       }
+//     }
+//     .tabs__body {
+//       width: 1440px;
+//       position: relative;
+//       right: 45px;
+//       display: flex;
+
+//       .tabs__block {
+//         position: relative;
+//         font-size: 18px;
+//         display: none;
+
+//         // &:nth-child(1) {
+//         // background-color: #F0F7FF;
+//         // }
+//         // &:nth-child(2) {
+//         // background-color: #F0F7FF;
+//         // }
+
+//         &:target {
+//           display: block;
+//         }
+
+//         &::before {
+//           content: "";
+//           height: 50px;
+//           width: 15%;
+//           top: -50px;
+//           position: absolute;
+//         }
+//         // &:nth-child(1):before {
+//         //     background-color: white;
+//         //     // border-radius: 10px 10px 0px 0px;
+//         //     left: 0;
+//         // }
+//         // &:nth-child(2):before {
+//         //     background-color: white;
+//         //     // border-radius: 10px 10px 0px 0px;
+//         //     left: 15%;
+//         // }
+
+//         .tabs__block__content__wrapper {
+//           margin: 0px 45px 0px 45px;
+//           width: 1360px;
+//           display: flex;
+//           flex-direction: column;
+
+//           .tabs__block__content {
+//             background-color: white;
+//             border-radius: 0px 10px 10px 10px;
+//             padding: 40px;
+//           }
+//         }
+//       }
+//     }
+//   }
+//   .free-area {
+//     height: 265px;
+//     margin: 25px 0px 0px 0px;
+//     padding: 20px 30px;
+//     font-size: 18px;
+//     line-height: 24px;
+//     // border-radius: 10px;
+//   }
+// }
+
+.pagination-block {
+  .pagination-block__wrapper {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+
+    .pagination {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      width: 45%;
+      margin-block-start: 2rem;
+      margin-block-end: 2rem;
+
+      .page-item {
+        // border-radius: 50%;
+        // width: 3.25rem;
+        // height: 3.25rem;
+        // text-align: center;
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
+
+        .page-link {
+          // text-decoration: none;
+          // color: white;
+        }
+        .arrow {
+          color: #2a2a2a !important;
+        }
+      }
+    }
+  }
+}
+
+.case {
+  display: flex;
+  flex-direction: column;
+  // width: 668px;
+  // height: 266px;
+  // border-radius: 10px;
+  // background-color: #F0F7FF;
+}
+
+// .functional-block__wrapper {
+//     // grid-template: 365px / 15% 15% 15% 15% 15% 15%;
+// }
+
+.functional__case {
+  height: 350px !important;
+}
+
+.mini-case {
+  // width: 437px !important;
+}
+
+.tabs__block__content {
+  // .content__wrapper {
+  //   display: flex;
+  //   flex-direction: column;
+  //   .input-blocks__wrapper {
+  //     display: flex;
+  //     flex-wrap: wrap;
+  //     flex-direction: column;
+  //     height: 120px;
+  //     align-content: space-between;
+  //     justify-content: space-between;
+
+  //     .input-block__item {
+  //       width: 25%;
+  //       .time {
+  //         #time {
+  //           width: 100%;
+  //         }
+  //       }
+  //     }
+
+  //     .input-block__button {
+  //       display: flex;
+  //       flex-basis: 100%;
+  //       .buttonblock {
+  //         align-self: end !important;
+  //       }
+  //     }
+  //   }
+  // }
+}
+
+// галерея
+
+#largeImg {
+  border-radius: 10px;
+  margin: 0 0 1rem 0;
+}
+
+#thumbs {
+  margin: 0;
+  padding: 0;
+}
+
+.photo-gallery__wrapper {
+  .photo-gallery__thumbs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    // width: 550px;
+
+    li {
+      list-style: none;
+      margin: 0 1rem 0 0;
+
+      &:last-child {
+        margin: 0 0 0 0;
+      }
+
+      a {
+        img {
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}
+
+// Модалки
+
+.modal-form__catalog-item {
+  .modal-form__catalog-item__wrapper {
+    .catalog-item__textblock {
+      .textblock__description {
+        .textblock__description__wrapper {
+          .description-item {
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .description__field {
+              color: #959595;
+              flex-basis: 35%;
+            }
+            .description__text {
+              flex-basis: 65%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.modal-form {
+  .form__wrapper {
+    .modal-form__title {
+      .modal-form__title__wrapper {
+        // align-items: center;
+
+        .title__self {
+          .title__name {
+            h1 {
+              margin-block-start: 0;
+              width: 100%;
+            }
+          }
+        }
+
+        // .title__close {
+
+        //   background-color: #ebf3fa;
+        //   width: 30px;
+        //   height: 30px;
+        //   border-radius: 50%;
+        //   font-size: 30px;
+        //   display: flex;
+        //   justify-content: center;
+        //   align-items: center;
+
+        //   .close-modal-form {
+        //     // background-color: #EBF3FA;
+        //     // width: 30px;
+        //     // height: 30px;
+        //     // border-radius: 50%;
+        //     // font-size: 30px;
+        //     // display: flex;
+        //     // justify-content: center;
+        //     // align-items: center;
+
+        //     position: relative;
+        //     left: 0%;
+        //     bottom: 5%;
+        //   }
+        // }
+      }
+    }
+
+    .modal-form__filling {
+      .modal-form__filling__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        .filling__input-block {
+          display: flex;
+          align-items: center;
+          width: 100%;
+          flex-direction: row;
+          justify-content: space-between;
+          margin-bottom: 2%;
+
+          .input-block-name {
+            flex-basis: 35%;
+            display: flex;
+            justify-content: flex-end;
+            font-weight: 400;
+            text-align: end;
+          }
+
+          .input-block-self {
+            flex-basis: 60%;
+          }
+
+          .input-block_group {
+            flex-basis: 60%;
+
+            .input-block_group__wrapper {
+              height: 100%;
+              width: 100%;
+              display: flex;
+              flex-wrap: wrap;
+              flex-direction: row;
+              justify-content: space-between;
+              align-items: center;
+
+              .input-block_group__item {
+                width: 48%;
+                .group__item-name {
+                  color: #959595;
+                  font-size: 0.75rem;
+                }
+
+                // input[type="text" i] {
+                //   width: 94%
+                // }
+              }
+            }
+          }
+
+          // .therapy__group {}
+          // .date__group {}
+        }
+      }
+
+      .modal-form__filling__wrapper {
+        .comment {
+          height: 10rem;
+        }
+      }
+    }
+    .modal-form__add-note-line {
+      .add-note-line {
+        .add-note-line__textblock {
+          // text-align: center;
+        }
+      }
+    }
+  }
+}
+
+.useful-information-block {
+  .useful-information-block_wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.useful-info-block {
+  .useful-info-block__wrapper {
+    .useful-info__special-solution {
+      flex-basis: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .special-solution-item {
+        height: 100%;
+
+        .special-solution__wrapper {
+          .spetial-solution__content {
+            font-weight: bold;
+          }
+        }
+      }
+
+      .with_fix-height {
+        height: 45%;
+      }
+    }
+  }
+}

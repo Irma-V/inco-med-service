@@ -1,0 +1,307 @@
+@import '@/scss/button_style.scss';
+@import '@/scss/links_style.scss';
+@import '@/scss/variables.scss';
+
+ul {list-style-type: none;}
+
+.aliceblue_theme {
+    background-color: #F0F7FF;
+}
+
+.white {
+    background-color: white;
+}
+
+.dark-background {
+    // background: rgba(50, 50, 50, 0.6);
+    background: rgba(0, 0, 0, 0.8); /* потемнее */
+}
+
+.with_shadow {
+    box-shadow: 0px 4px 4px #c4c4c4;
+}
+
+.with_border {
+    border: 2px solid #DEEBFE;
+    // border-radius: 10px;
+}
+
+.img_ellipse_form {
+    border: 0.1rem solid white;
+}
+
+.contacts__case{
+    // width: 370px !important;
+    // height: 275px !important;
+
+}
+
+.flex_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.no_wrap {
+    flex-wrap: nowrap;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.half {flex-basis: 50%;}
+.full {flex-basis: 100%;}
+.hide-text {opacity: 0;}
+.none {display: none !important;}
+
+
+//произвольный размер блока 500х200
+.size_800x200 {
+    width: 800px;
+    height: 200px;
+}
+
+
+// DOCTOR
+.bgr_doctor_01 {
+    background-image: $doctor1;
+}
+.bgr_doctor_02 {
+    background-image: $doctor2;
+}
+.bgr_doctor_03 {
+    background-image: $doctor3;
+}
+.bgr_doctor_04 {
+    background-image: $doctor4;
+    background-size: auto 90%;
+
+}
+
+//X-RAY
+.bgr_xray_01 {
+    background-image: $xray1;
+}
+.bgr_xray_02 {
+    background-image: $xray2;
+    background-size: auto 65%;
+}
+.bgr_xray_03 {
+    background-image: $xray3;
+}
+.bgr_xray_04 {
+    background-image: $xray4;
+}
+
+//MOUNTAINS
+.bgr_mountains_01 {
+    background-image: $mountains1;
+}
+.bgr_mountains_02 {
+    background-image: $mountains2;
+}
+
+//прочие
+.bgr_resourse01 {
+    background-image: $resourse01;
+}
+
+.bgr_phone {
+    background-image: $phone;
+    background-size: auto 100%;
+}
+
+.bgr_medhelp_01 {
+    background-image: $medhelp01;
+    background-size: auto 35%;
+}
+
+.bgr_question {
+ background-image : $question;
+}
+
+
+.bgr_expertise1 {
+    background-image : $expertise1;
+   }
+
+// Размещение bgr-img
+.pos_forDoctors, .pos_forXray_04 {
+    background-position: bottom 0px right 25px;
+} 
+.pos_forXray, .pos_forMountains {
+    background-position: bottom 0px right 0px;
+}
+
+.pos_forPhone {
+    background-position: top 101px right 25px;
+}
+
+
+
+//Ширина Блоков
+
+// для блока solutionsBlock:
+    // .defaultSize {
+    //     width: 437px;
+    // }
+
+    // .medical_record_size01 {
+    //     width: 736px;
+    // }
+    
+    // .medical_record_size02 {
+    //     width: 667px;
+    // } 
+
+//
+
+// .medical_record_title-size {
+//     height: 500px !important;
+// }
+
+// .about-it__title-size {
+//     width: 450px !important;
+// }
+// .expertise_title-size {
+//     height: 470px !important;
+// }
+
+// .title__width {
+//     width: 550px !important;
+// }
+
+// для поля text_solut:
+
+    // .textSize_option_for_medical_record_size02 {
+    //     width: 388px;
+    //     height: 89px;
+    // }
+    
+    .textSize_option__for_doctors {
+        width: 218px;
+        height: 160px;
+    }
+    .textSize_option__for_expertise {
+        width: 218px;
+        height: 113px;
+    }
+    
+    .textSize__option__for_moutains {
+        width: 288px;
+        height: 140px;
+    }
+
+    .textSize_option03 {
+        width: 218px;
+        height: 89px;
+    }
+    .textSize_option04 {
+        width: 192px;
+        height: 89px;
+    }
+    .textSize_option05 {
+        width: 232px;
+        height: 89px;
+    }
+//
+
+// Логотипы на голубом фоне
+
+.ellipse-icon-block {
+    display: flex;
+    flex-direction: row;
+    // align-items: center;
+    justify-content: space-between;
+    padding: 0 0 2% 0;
+
+    .ellipse-icon {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+    
+        // background-color: #F0F7FF;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .input-block__textblock {
+        // font-size: 14px;
+        // width: 170px;
+    }
+}
+
+
+    .doc_logo { background-image: $docLogo;}
+    .clinic_logo { background-image: $clinicLogo;}
+    .loc_logo { background-image: $locationLogo;}
+    .food_logo { background-image: $foodLogo;}
+    .roomType_logo { background-image: $roomTypeLogo;}
+    
+    .anamnesis_logo {background-image: $anamnesisLogo;}
+    .vaccinations_logo {background-image: $vaccinationsLogo;}
+    .research_logo {background-image: $researchLogo;}
+    .hospitalization_logo {background-image: $hospitalizationLogo;}
+    .medAppointments_logo {background-image: $medAppointmentsLogo;}
+//
+
+
+
+// перемещение позиции фоновой картинки для solution_block
+    .move_up, .move_down, .move_left, .move_right {transition: 0.9s;}
+
+    .move_up {
+        
+        &:hover {
+            background-position: top 60px right 25px;
+            // transition: background-position 0.5s;
+        }
+    }
+
+    .move_down {
+        
+        &:hover {
+            // background-position: top 175px right 25px;
+            background-position: top 210px right 25px;
+            // transition: background-position 0.5s;
+        }
+    }
+
+    .move_left {
+        // background-size: auto;
+    
+        &:hover {
+            background-position: bottom 0px right 0px;
+            // background-size: 40%;
+            // transition: background-position 0.5s;
+        }
+    }
+
+    .move_right {
+    
+        &:hover {
+                background-position: top 123px right -15px;
+            // transition: background-position 0.5s;
+        }
+    }
+
+    .scale {
+        background-size: 100%;
+        transition: background-size 0.9s;
+    
+        &:hover {
+            background-size: 110%;
+            //transition: 0.9s;
+        }
+    }
+// 
+
+// стилизация фильтра поиска
+    .tabs__block__content {
+        // background-color: white;
+        // border-radius: 0px 10px 10px 10px;
+        // padding: 40px;
+    }
+// 
+

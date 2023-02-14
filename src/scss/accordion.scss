@@ -1,0 +1,61 @@
+// стилизация для аккордеона
+.accordion-title {
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: space-between;
+  // padding: 20px 15px;
+}
+
+.accordion-content {
+  font-size: 0.875rem;
+  margin: 0px 0.9375rem;
+
+  transition: 0.3s ease-in-out;
+  max-height: 0;
+  overflow: hidden;
+  // display: none;
+}
+//
+
+.accordion-item {
+  // margin: 0px 10px 10px 10px;
+
+  .accordion-item__wrapper {
+    // background-color: #F0F7FF;
+    // border-radius: 10px;
+    // display: flex;
+    // flex-direction: column;
+    // width: 100%;
+
+    .accordion-title {
+      .accordion-title-self {
+        flex-basis: 90%;
+        font-size: 1rem;
+        font-weight: bold;
+      }
+      .accordion-arrrow {
+        flex-basis: 10%;
+        font-size: 0.875rem;
+        text-align: center;
+      }
+    }
+
+    // .accordion-content{
+    //     font-size: 0.875rem;
+    //     margin: 0px 0.9375rem;
+
+    //     transition: 0.3s ease-in-out;
+    //     max-height: 0;
+    //     overflow: hidden;
+    //     // display: none;
+    // }
+  }
+}
+
+ion-icon {
+  transition: 0.3s;
+}
+
+.animate {
+  transform: rotate(180deg);
+}

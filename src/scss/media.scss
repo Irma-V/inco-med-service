@@ -1,0 +1,179 @@
+@media (min-width: 50px) and (max-width: 450px) {
+
+    
+    /* .sanat-button_setting {margin: 10px 0px 0px 0px;}
+
+    .services-info-block, .catalog-item__name, .catalog-item__info, .catalog-item__info__input-block, #time, .catalog-item__info__join-block, .choose-a-service_block, .Select-Specialist_button {
+        width: 100% !important;
+    }
+    .catalog-item {
+        width: 21.5rem !important;
+        height: 45.438rem !important;
+    
+        .catalog-service__wrapper {
+            flex-direction: column !important;
+            margin: 0.938rem !important;
+            justify-content: space-around !important;
+    
+    
+            .services-img-block {
+                width: 19.5rem !important;
+                height: 13.375rem !important;
+            }
+
+            .services-info-block {
+
+                height: 100% !important;
+        
+                .services-info-block__wrapper {
+                    // height: 100% !important;
+                    // align-items: flex-start !important;
+                    // justify-content: space-around !important;
+
+                    .catalog-item__name {
+                        font-size: 1.25rem !important;
+                        //flex-basis: 15% !important;
+                    }
+            
+                    .catalog-item__info {
+                        flex-direction: column !important;
+                        align-items: flex-start !important;
+                        //flex-basis: 85% !important;
+    
+                        //.forSanatoriumBlock { flex-direction: column-reverse !important;}
+                        .catalog-item__info__input-block {
+                            flex-basis: 40% !important;
+                        }
+                        .catalog-item__info__join-block {
+                            flex-direction: column !important;
+                            .timeSelector {
+                                flex-basis: 49% !important;
+
+                                #date {width: 99% !important;}
+                            }
+                            .choose-a-service_block {
+                                flex-basis: 49% !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    } */
+
+}
+
+@media (max-width: 900px) and (min-width: 740px) {
+   
+    
+    
+    
+    /* .sanat-button_setting {display: none;}
+
+    .med-specialist-photo-block {
+        flex-basis: 30% !important;
+    }
+
+    .catalog-item {
+        width: 46rem !important;
+        // height: 14rem !important;
+        
+        
+
+        .catalog-service__wrapper {
+            margin: 1rem !important;
+    
+    
+            .services-img-block {
+                width: 214px !important;
+                height: 214px !important;
+                
+
+                
+                .services-img__photo {
+                    width: 100% !important;
+                    height: 100% !important;
+                }
+
+                
+                
+            }
+        
+            .services-info-block {
+                flex-basis: 68% !important;
+                
+                .services-info-block__wrapper {
+                    justify-content: space-between !important;
+                    flex-basis: 68% !important;
+
+                    .catalog-item__name {
+                        flex-basis: 15%;
+                        font-size: 1.125rem !important;
+                    }
+            
+                    .catalog-item__info {
+                        flex-basis: 85%;
+
+                        .catalog-item__info__input-block {
+                            flex-basis: 49% !important;
+            
+                        }
+            
+                        .catalog-item__info__join-block {
+                            flex-basis: 49% !important;
+
+                            flex-direction: column !important;
+                            height: 100% !important;
+                            justify-content: space-between !important;
+                            
+        
+                            .timeSelector {
+                                flex-basis: 70% !important;
+                                
+                                #date {
+                                    width: 99% !important;
+                                }
+                        
+                                #time {
+                                    width: 100% !important;
+                                    
+                                }
+                            }
+                            
+                            .choose-a-service_block {
+                                flex-basis: min-content !important;
+                                width: 100% !important;
+
+                                flex-direction: row-reverse !important;
+                                justify-content: space-between !important;
+                                align-items: center !important;
+                                
+                
+                                .priceBlock {
+                                    font-size: 1.125rem !important;
+                                    flex-basis: 40% !important;
+                                    //text-align-last: right !important;
+                                }
+                                
+                                .buttonblock {
+                                    flex-basis: 55% !important;
+    
+                                    .Select-Specialist_button {
+                                        width: 100% !important;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                 }
+        
+                
+            }
+        }
+    } */
+
+}
+
+
+

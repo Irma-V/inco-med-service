@@ -1,0 +1,127 @@
+.about-it__block {
+  //     // margin-top: 95px;
+
+  //     .about-it__wrapper{
+  //     //     // height: 435px;
+  //     //     display: flex;
+  //     //     flex-direction: row-reverse;
+  //     //     flex-wrap: wrap;
+  //     //     align-items: center;
+  //     //     justify-content: space-around;
+
+  //         .about-it__textblock {
+  //             display: flex;
+  //             flex-direction: column;
+  //             justify-content: space-between;
+  //             height: 90%;
+
+  //             .title__textblock {
+  //                 font-size: 40px;
+  //                 font-weight: bold;
+  //                 width: 333px;
+  //             }
+  //             .title__description {
+  //                 font-size: 20px;
+  //                 width: 540px;
+  //                 margin: 20px 0px 0px 0px;
+  //             }
+  //         }
+  //     }
+  // }
+
+  // .about-experts__block {
+  //     .about-experts__wrapper{
+  //         justify-content: space-between !important;
+  //         flex-direction: row !important;
+  //         .about-experts__textblock {
+  //             flex-basis: 50%;
+  //         }
+  //     }
+  // }
+  // .about-clinic-cart {}
+
+  //     .about-clinic-cart__wrapper {}
+}
+
+.about-EMC {
+  .content {
+    .about-it__block {
+      // .h1 {
+      //     display: none;
+      // }
+
+      .about-it__wrapper {
+        .about-it__textblock {
+          .title__textblock::before {
+            content: "";
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) and (min-width: 640px) {
+  .about-EMC {
+    .content {
+      .about-it__block {
+        .about-it__wrapper {
+          flex-direction: row;
+
+          .about-it__textblock {
+            flex-basis: 70%;
+          }
+
+          .title-img {
+            overflow: hidden;
+            img {
+              max-width: 200%;
+              position: relative;
+              right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) and (min-width: 640px) {
+  .about-company {
+    .content {
+      .about-it__block {
+        .h1 {
+          display: none;
+        }
+
+        .about-it__wrapper {
+          .about-it__textblock {
+            .title__textblock::before {
+              content: "О компании ";
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 639px) and (min-width: 50px) {
+  .about-company {
+    .content {
+      .about-it__block {
+        .h1 {
+          display: none;
+        }
+
+        .about-it__wrapper {
+          .about-it__textblock {
+            .title__textblock::before {
+              content: "О компании \0D";
+            }
+          }
+        }
+      }
+    }
+  }
+}
