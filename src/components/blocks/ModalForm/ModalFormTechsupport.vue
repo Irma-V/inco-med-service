@@ -51,7 +51,8 @@
 
                     <div class="filling__input-block button">
                         <div class="input-block-name hide-text">Кнопка</div>
-                        <ButtonBlock ButtonWrapper="h-[3.125rem] w-1/3" ButtonStyle="orange" ButtonName="Оставить заявку">
+                        <ButtonBlock ButtonWrapper="h-[3.125rem] w-1/3" ButtonStyle="orange"
+                            ButtonName="Оставить заявку">
                         </ButtonBlock>
 
                     </div>
@@ -91,21 +92,6 @@ export default {
     data() {
         return {
             // titleName: 'Бесплатная консультация',
-
-            surnameName: 'Фамилия',
-            surnamePH: 'Иванов',
-
-            firstnameName: 'Имя',
-            firstnamePH: 'Иван',
-
-            patronymicName: 'Отчество',
-            patronymicPH: 'Иванович',
-
-            telephoneName: 'Телефон',
-            telephonePH: '+7 952 540-45-44',
-
-            emailName: 'email',
-            emailPH: 'email',
 
             // commentName: 'Описание проблемы',
             // commentPlaceholder: 'Ваш комментарий',

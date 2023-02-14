@@ -44,7 +44,8 @@
                 </div>
 
                 <div class="filling__input-block button flex flex-col">
-                    <ButtonBlock ButtonWrapper="h-[2.125rem] w-2/4" ButtonStyle="blue" ButtonName="Бесплатная консультация">
+                    <ButtonBlock ButtonWrapper="h-[2.125rem] w-2/4" ButtonStyle="blue"
+                        ButtonName="Бесплатная консультация">
                     </ButtonBlock>
                 </div>
             </div>
@@ -111,21 +112,6 @@ export default {
             aboutItDescription2: '<p>Наши специалисты могут:</p><br>  <ul> <li>- проконсультировать о правомерности оказания или неоказания медицинской помощи;</li><li>- проанализировать заключение; </li><li>- составить рецензию на уже проведённую медицинскую экспертизу; </li><li>- защищать Ваши интересы в судебном заседании.</li></ul>',
 
             applicationFormTitle: 'Заявка на экспертизу качества лечения',
-
-            /* // surnameName: 'Фамилия',
-            // surnamePH: 'Иванов',
-        
-            // firstnameName: 'Имя',
-            // firstnamePH: 'Иван',
-        
-            // patronymicName: 'Отчество',
-            // patronymicPH: 'Иванович',
-        
-            // telephoneName: 'Телефон',
-            // telephonePH: '+7 952 540-45-44',
-        
-            // emailName: 'email',
-            // emailPH: 'email', */
 
             commentName: 'Комментарий',
             commentPH: '',
